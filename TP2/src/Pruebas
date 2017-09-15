@@ -1,0 +1,97 @@
+rodrigo@rodrigo-ubuntu:/media/rodrigo/Nuevo W/Facultad 2016/Redes/TP2/src$ sudo python3 traceroute.py www.teikyo-u.ac.jp
+WARNING: No route found for IPv6 destination :: (no default route?). This affects only IPv6
+TTL: 1, Hop: 192.168.0.1, RTT: 77ms 
+TTL: 2, Hop: 10.18.128.1, RTT: 64ms 
+TTL: 3, Hop: 10.242.0.17, RTT: 70ms 
+TTL: 4, Hop: 208.178.195.210, RTT: 71ms NA
+TTL: 5, Hop: 208.178.195.209, RTT: 60ms NA
+TTL: 6, Hop: 67.16.132.214, RTT: 212ms NA
+TTL: 7, Hop: 64.208.27.114, RTT: 225ms NA
+TTL: 8, Hop: 203.181.106.13, RTT: 207ms AS
+TTL: 9, Hop: 59.128.3.178, RTT: 214ms AS
+TTL: 10, Hop: 203.181.100.117, RTT: 328ms AS
+TTL: 11, Hop: 118.155.197.53, RTT: 312ms AS
+TTL: 12, Hop: 118.159.225.14, RTT: 308ms AS
+TTL: 13, Hop: 203.140.224.106, RTT: 304ms AS
+TTL: 14, Hop: 203.140.225.82, RTT: 328ms AS
+TTL: 15, Hop: 14.128.31.106, RTT: 304ms AS
+TTL: 16, Hop: 14.128.19.30, RTT: 303ms AS
+TTL: 17, Hop: 112.140.52.105, RTT: 322ms AS
+Destino alcanzado!
+
+
+rodrigo@rodrigo-ubuntu:/media/rodrigo/Nuevo W/Facultad 2016/Redes/TP2/src$ sudo python3 traceroute.py www.cput.ac.za 30
+WARNING: No route found for IPv6 destination :: (no default route?). This affects only IPv6
+TTL: 1, Hop: 192.168.0.1, RTT: 72ms 
+TTL: 2, Hop: 10.18.128.1, RTT: 60ms 
+TTL: 3, Hop: 10.242.0.17, RTT: 63ms 
+TTL: 4, Hop: 195.22.220.33, RTT: 68ms EU
+TTL: 5, Hop: 195.22.220.32, RTT: 80ms EU
+TTL: 6, Hop: 89.221.41.181, RTT: 204ms NA
+TTL: 7, Hop: 89.221.41.161, RTT: 195ms NA
+TTL: 8, Hop: 154.54.9.17, RTT: 185ms NA
+TTL: 9, Hop: 154.54.80.41, RTT: 198ms NA
+TTL: 10, Hop: 154.54.24.193, RTT: 213ms NA
+TTL: 11, Hop: 154.54.7.157, RTT: 208ms NA
+TTL: 12, Hop: 154.54.40.105, RTT: 204ms NA
+TTL: 13, Hop: 154.54.30.186, RTT: 273ms EU
+TTL: 14, Hop: 154.54.58.174, RTT: 267ms EU
+TTL: 15, Hop: 154.54.56.242, RTT: 285ms EU
+TTL: 16, Hop: 149.14.80.210, RTT: 273ms EU
+TTL: 17, Hop: 196.32.209.174, RTT: 197ms AF
+TTL: 18, Hop: 155.232.6.65, RTT: 189ms AF
+TTL: 19, Hop: 155.232.6.205, RTT: 183ms AF
+TTL: 20, Hop: 196.21.74.34, RTT: 202ms AF
+TTL: 21, Hop: 196.21.76.18, RTT: 101ms AF
+TTL: 22, Hop: 198.54.223.213, RTT: 195ms AF
+Destino alcanzado!
+
+rodrigo@rodrigo-ubuntu:/media/rodrigo/Nuevo W/Facultad 2016/Redes/TP2/src$ sudo python3 traceroute.py www.en.uj.edu.pl 30
+WARNING: No route found for IPv6 destination :: (no default route?). This affects only IPv6
+TTL: 1, Hop: 192.168.0.1, RTT: 76ms 
+TTL: 2, Hop: 10.18.128.1, RTT: 69ms 
+TTL: 3, Hop: 10.242.0.17, RTT: 64ms 
+TTL: 4, Hop: 208.178.195.210, RTT: 71ms NA
+TTL: 5, Hop: 208.178.195.209, RTT: 77ms NA
+TTL: 6, Hop: *, RTT: *
+TTL: 7, Hop: 4.69.161.6, RTT: 294ms EU
+TTL: 8, Hop: 4.69.161.6, RTT: 306ms EU
+TTL: 9, Hop: 212.162.10.82, RTT: 321ms EU
+TTL: 10, Hop: 212.191.224.70, RTT: 340ms EU
+TTL: 11, Hop: 149.156.0.54, RTT: 332ms EU
+TTL: 12, Hop: 149.156.76.2, RTT: 327ms EU
+TTL: 13, Hop: 149.156.89.10, RTT: 326ms EU
+TTL: 14, Hop: 149.156.225.217, RTT: 325ms EU
+Destino alcanzado!
+
+rodrigo@rodrigo-ubuntu:/media/rodrigo/Nuevo W/Facultad 2016/Redes/TP2/src$ sudo python3 traceroute.py www.cput.ac.za 30
+[sudo] password for rodrigo: 
+WARNING: No route found for IPv6 destination :: (no default route?). This affects only IPv6
+TTL: 1, Hop: 192.168.0.1, RTT: 51ms 
+TTL: 2, Hop: 10.18.128.1, RTT: 60ms 
+TTL: 3, Hop: 10.242.0.17, RTT: 59ms 
+TTL: 4, Hop: 195.22.220.33, RTT: 66ms EU
+TTL: 5, Hop: 195.22.220.32, RTT: 59ms EU
+TTL: 6, Hop: 89.221.41.181, RTT: 263ms NA
+TTL: 7, Hop: 89.221.41.161, RTT: 266ms NA
+TTL: 8, Hop: 154.54.9.17, RTT: 191ms NA
+TTL: 9, Hop: 154.54.80.41, RTT: 222ms NA
+TTL: 10, Hop: 154.54.24.193, RTT: 207ms NA
+TTL: 11, Hop: 154.54.7.157, RTT: 207ms NA
+TTL: 12, Hop: 154.54.40.105, RTT: 211ms NA
+TTL: 13, Hop: 154.54.30.186, RTT: 281ms EU
+TTL: 14, Hop: 154.54.58.174, RTT: 282ms EU
+TTL: 15, Hop: 154.54.56.242, RTT: 275ms EU
+TTL: 16, Hop: 149.14.80.210, RTT: 285ms EU
+TTL: 17, Hop: 196.32.209.174, RTT: 207ms AF
+TTL: 18, Hop: 155.232.6.65, RTT: 142ms AF
+TTL: 19, Hop: 155.232.6.205, RTT: 191ms AF
+TTL: 20, Hop: 196.21.74.34, RTT: 133ms AF
+TTL: 21, Hop: 196.21.76.18, RTT: 217ms AF
+TTL: 22, Hop: 198.54.223.213, RTT: 192ms AF
+Destino alcanzado!
+
+
+
+
+
